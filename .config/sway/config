@@ -27,6 +27,16 @@ set $wallpaper ~/.dotfiles/.wallpaper/dunes_day.jpeg
 # autotiling
 exec_always ~/.dotfiles/.config/sway/autotiling
 
+# borders
+default_border pixel 2
+default_floating_border pixel 2
+hide_edge_borders smart
+
+# gaps
+gaps inner 16px
+gaps outer 0px
+smart_gaps on
+
 ### Output configuration
 # Requires: desktop-backgrounds-compat, swaybg, jxl-pixbuf-loader
 output * bg $wallpaper fill
