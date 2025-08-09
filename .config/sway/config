@@ -24,6 +24,9 @@ set $rofi_cmd rofi \
 set $menu $rofi_cmd -show combi -combi-modes drun#run -modes combi
 set $wallpaper ~/.dotfiles/.wallpaper/dunes_day.jpeg
 
+# autotiling
+exec_always ~/.dotfiles/.config/sway/autotiling
+
 ### Output configuration
 # Requires: desktop-backgrounds-compat, swaybg, jxl-pixbuf-loader
 output * bg $wallpaper fill
