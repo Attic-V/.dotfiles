@@ -21,7 +21,6 @@
         "cpu",
         "memory",
         "temperature",
-        "sway/language",
         "battery",
         "clock",
         "tray"
