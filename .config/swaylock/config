@@ -1,2 +1,4 @@
 daemonize
 image=~/.dotfiles/.wallpaper/cityscape.png
+indicator-radius=60
+indicator-thickness=8
